@@ -1,0 +1,25 @@
+.updates_bar{
+	background-color:  #ECE8DD;
+	height: 60px;
+	position: relative;
+}
+.update{
+	font-size: 18px;
+	font-family: ubuntu,sans-serif;
+	position: absolute;
+}
+.content{
+	height: auto;
+	position: relative;
+	margin: 15px;
+	font-family: 'Noto Sans',sans-serif;
+}
+.heading{
+	font-size: 40px;
+	font-weight: bold;
+	display: inline-block;
+}
+.image{
+	display: inline;
+	width: 450px;
+}

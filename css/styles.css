@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	background-color: #F8F4EA ;
+}
+.header{
+	background-color: #579BB1;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	font-family: Ubuntu,sans-serif;
+	font-size: 15px;
+	position: relative;
+}
+.header-text{
+	position: relative;
+	width: 200px;
+	display: inline-block;
+	font-weight: bold;
+}
+.header-text-timings{
+	width: auto;
+	font-size: 12px;
+	font-weight: bold;
+}
+.no_underline{
+	text-decoration: none;
+}
+.menu-Bar
+{
+	height: 10%;
+	background-color: #E1D7C6;
+	position: relative;
+	font-family: 'Noto Sans',sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.menu-items{
+	display: inline;
+	position: absolute; 
+	width: 80%;
+	top: 20px;
+	text-align: center;
+}
+.menu-item{
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.menu-item:hover{
+	cursor: pointer;
+}
+
+.logo{
+	display: inline;
+	width: 80px;
+	padding: 5px;
+	margin-left: 2%;
+	margin-right: 2%;
+}

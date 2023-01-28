@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    font-family: 'Nunito', sans-serif;
+}
+#main{
+    width: 100%;
+    height: 950px;
+}
+#head{
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+#head1{
+    width: 50%;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+#head1 h1{
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#head1 span{
+    color: #248c9e;
+}
+#head2{
+    float: right;
+    width: 50%;
+    height: 150px;
+    text-align: right;
+}
+#head2 h2{
+    font-size: 25px;
+    padding-top: 35px;
+    width: 80%;
+}
+#head2 span, a{
+    color: #248c9e;
+}

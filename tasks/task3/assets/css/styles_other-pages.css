@@ -1,0 +1,66 @@
+/*All Pages Except Home Page*/
+#slider-content{
+    width: 100%;
+}
+#slider-content h1{
+    text-align: center;
+}
+
+/*Solutions Page*/
+#slider-content ul{
+    width: 85%;
+    padding: 10px 0px 0px 60px;
+    margin : 0px auto 0px auto;
+}
+#slider-content ul li{
+    padding: 10px 0px 0px 10px;
+    font-weight: bold;
+}
+
+/*Partner Success*/
+#slider-content p img{
+    width: 250px;
+}
+
+/*FAQ Page*/
+#image img{
+    height: min-content;
+    padding-top: 25%;
+    width: 380px;
+}
+#search{
+    width: 85%;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Nunito',serif;
+}
+#slider-content h1 button{
+    font-family: 'Nunito',serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+    width: 100px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+#slider-content h1 button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to top,rgb(40, 231, 222),rgb(21, 117, 112));
+}
+.faq:hover{
+    cursor: pointer;
+}
+.faq h3{
+    font-size: 11px;
+    padding: 10px 0px 5px 25px;
+    font-size: 15px;
+    color: rgb(50, 63, 28);
+}
+.faq p span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.faq p span:hover{
+    cursor: pointer;
+}

@@ -13,7 +13,9 @@ body {
   color: #444;
   background: #FBF8F1;
 }
-
+#topbar{
+  color: white;
+}
 a {
   color: #428bca;
   text-decoration: none;
@@ -80,7 +82,7 @@ h6,
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #F0E5CF;
+  background: #950000;
   /*
   border-bottom: 1px solid #eee;
   */
@@ -91,7 +93,7 @@ h6,
 
 #topbar .contact-info a {
   line-height: 0;
-  color: #444;
+  color: white;
   transition: 0.3s;
 }
 
@@ -100,7 +102,7 @@ h6,
 }
 
 #topbar .contact-info i {
-  color: #950000;
+  color: white;
   line-height: 0;
   margin-right: 5px;
 }
@@ -110,7 +112,7 @@ h6,
 }
 
 #topbar .social-links a {
-  color: #950000;
+  color: white;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -132,7 +134,7 @@ h6,
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 1.4em;
   margin: 0;
   padding: 10px 0;
   line-height: 1;
@@ -425,7 +427,6 @@ h6,
 #hero .carousel-content {
   text-align: left;
 }
-
 @media (max-width: 992px) {
 
   #hero,
@@ -441,11 +442,12 @@ h6,
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 1.5em;
   font-weight: 900;
 }
 
 #hero p {
+  font-size: 0.95em;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -520,7 +522,7 @@ h6,
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 28px;
+    font-size: 1.5em;
   }
 }
 
@@ -533,7 +535,11 @@ h6,
 }
 
 @media (min-width: 1024px) {
+  #hero h2{
+    font-size: 2.2em;
+  }
   #hero p {
+    font-size: 1.3em;
     width: 60%;
   }
 
@@ -899,7 +905,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #428bca;
+  color: #ca4242;
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
   overflow: hidden;
 }
@@ -910,7 +916,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
+  box-shadow: 0px 0 30px rgb(202 120 66 / 50%);
 }
 
 .services .title {

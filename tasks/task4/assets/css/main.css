@@ -265,7 +265,7 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 1.3em;
   font-weight: 700;
   color: #fff;
   font-family: var(--font-secondary);
@@ -2097,7 +2097,7 @@ section {
 }
 
 .footer .footer-content .footer-info .logo span {
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--color-secondary);

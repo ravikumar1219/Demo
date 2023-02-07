@@ -126,7 +126,7 @@ section {
   list-style: none;
   padding: 0 0 10px 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 0.834rem;
   font-weight: 600;
   color: var(--color-primary);
 }
@@ -2134,7 +2134,7 @@ section {
 }
 
 .footer .footer-content h4 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
   color: #29486a;
   position: relative;
@@ -2162,6 +2162,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
 
 .footer .footer-content .footer-links ul li:first-child {
